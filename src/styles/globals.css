@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins",sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.background-container {
+    background-size: 100% 100%;
+    background-image: url(../assets/bgimage.jpg);
+    background-attachment: fixed;
+}
+
+.title-text{
+    letter-spacing: 10px;
+}
+
+.text-shadow:hover{
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.feature-item-five {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature-item-five:before {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  
+  .feature-item-five i {
+    line-height: 1;
+    font-size: 60px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    color: #4CAF50;
+    display: inline-block;
+  }
+  
+  .feature-item-five p {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 0;
+  }
+  
+  .feature-item-five:hover h5,
+  .feature-item-five:hover p a {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    transition: text-shadow 0.3s ease-in-out;
+  }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
